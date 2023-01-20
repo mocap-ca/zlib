@@ -232,7 +232,7 @@ if(NOT SKIP_INSTALL_FILES AND NOT SKIP_INSTALL_ALL AND NOT SKIP_PACKAGE)
 
     INCLUDE(CMakePackageConfigHelpers)
     CONFIGURE_PACKAGE_CONFIG_FILE(
-        "${CMAKE_CURRENT_SOURCE_DIR}/cmake_package_template.cmake.in"
+        "${CMAKE_CURRENT_SOURCE_DIR}/cmake_package_template.cmakein"
         "${package_config_file}"
         INSTALL_DESTINATION "cmake/"
     )
